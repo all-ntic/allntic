@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import AIChat from "@/components/AIChat";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -57,6 +58,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       <WhatsAppButton />
+      <AIChat />
       
       {/* Hero Section */}
       <HeroSection />
